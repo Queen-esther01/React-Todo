@@ -1,4 +1,5 @@
 import React from 'react'
+import './todo.css'
 
 const Todos = ({todos, deleteTodo}) =>{
     const todoList = todos.length ? (
@@ -10,7 +11,7 @@ const Todos = ({todos, deleteTodo}) =>{
             )
         })
     ) : (
-        <p className='center'>You have no todo's left, yay!</p>
+        <p className='text'>You have no todo's left, yay!</p>
     )
 
     return(

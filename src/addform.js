@@ -22,6 +22,7 @@ class  Addtodo extends React.Component{
                 <form onSubmit={this.handleSubmit}>
                     <label>Add New ToDo:</label>
                     <input type='text' onChange={this.handleChange} value={this.state.content}/>
+                    <label>Tap on ToDo text to delete</label>
                 </form>
             </div>
         )

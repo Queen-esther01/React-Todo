@@ -1,13 +1,13 @@
 import React from 'react';
 import Todos from './todos'
 import Addtodo from './addform'
+import './todo.css'
 
 class Newapp extends React.Component{
 
     state = {
         todos: [
-            {id: 1, content: 'Buy Some Milk'},
-            {id: 2, content: 'Play Mario Kart'},
+            
         ]
     }
     deleteTodo = (id) =>{

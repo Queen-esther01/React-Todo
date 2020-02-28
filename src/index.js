@@ -4,7 +4,6 @@ import './index.css';
 import Newapp from './newapp'
 import * as serviceWorker from './serviceWorker';
 
-const Gender = 'femme';
 
 ReactDOM.render( <Newapp/>, document.getElementById('root'));
 {/* <App name='Ejidike' gender = {Gender}  /> */}
